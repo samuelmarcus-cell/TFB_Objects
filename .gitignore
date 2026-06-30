@@ -1,0 +1,13 @@
+# Data folders are not included in the repo, usually to big!
+data/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+analysis/__pycache__/
+*.py[codz]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints
+analysis/.ipynb_checkpoints
+

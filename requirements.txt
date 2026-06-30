@@ -1,0 +1,10 @@
+# This file should include the list of packages needed to run the project. 
+# Even if you just use conda/analysis3, it's a good practice to include the 
+# dependencies here for documentation and reproducibility purposes.
+
+# When you are ready to create this file, run this in the terminal after activating your environment:
+# cd .
+# python3 -m pip freeze > requirements.txt
+
+# This action will replace the current contents of this file with the list of packages currently installed 
+# in your environment.
