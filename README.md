@@ -2,6 +2,8 @@
 
 Studying weather objects and total fire ban days in Victoria. Collaborative project with S.Allen
 
+NetCDF files for composite calculation stored in /g/data/gb02/sm5259/TFB_Objects/analysis/composites
+
 
 
 This project is structured as following:
