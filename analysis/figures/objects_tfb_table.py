@@ -31,9 +31,9 @@ REGION_BBOX = {
 }
 
 
-LAT_361 = np.linspace(-90.0, 90.0, 361)          # 0.5 deg spacing
-LON_720 = np.arange(-180.0, 180.0, 0.5)           # 720 pts, no dateline dup
-LON_721 = np.arange(-180.0, 180.5, 0.5)           # 721 pts, dateline included
+LAT_361 = np.linspace(-90.0, 90.0, 361)     
+LON_720 = np.arange(-180.0, 180.0, 0.5)          
+LON_721 = np.arange(-180.0, 180.5, 0.5)           
 
 
 OBJECT_CONFIG = {
@@ -54,14 +54,14 @@ OBJECT_CONFIG = {
     "anticyclone": {
         "dir_template": "maxcl/cdf/{year}",
         "file_template": "A{year}_{month:02d}.nc",
-        "dims": None,  # already has lat/lon coords (index-based, need overwrite)
+        "dims": None,  
         "var": "FLAG",
         "lon_grid": "720",
     },
     "cyclone": {
         "dir_template": "mincl/cdf/{year}",
         "file_template": "C{year}_{month:02d}.nc",
-        "dims": ("dimz_INPUT",),  # lat/lon already present, just dimz to squeeze
+        "dims": ("dimz_INPUT",),  
         "var": "LABEL",
         "lon_grid": "720",
     },
