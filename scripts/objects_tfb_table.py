@@ -18,8 +18,8 @@ import pandas as pd
 import xarray as xr
 
 
-TFB_CSV = Path("/home/565/sm5259/.jupyter-root/g/data/gb02/sm5259/TFB_Objects/TFB_days.csv")
-OUTPUT_CSV = Path("tfb_weather_object_presence.csv")
+TFB_CSV = Path("/g/data/gb02/sm5259/TFB_Objects/TFB_days.csv")
+OUTPUT_CSV = Path("/g/data/gb02/sm5259/TFB_Objects/analysis/tfb_weather_object_presence.csv")
 
 BASE_DIR = Path("/g/data/if69/cj0591/GC26_energy_synoptics/data/weatherfeatures.era5")
 
