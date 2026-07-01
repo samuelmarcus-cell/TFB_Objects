@@ -4,6 +4,8 @@ Studying weather objects and total fire ban days in Victoria. Collaborative proj
 
 NetCDF files for composite calculation stored in /g/data/gb02/sm5259/TFB_Objects/analysis/composites
 
+FFDI Calculated from BARRA avaliable at: /g/data/ia39/ncra/fire/bias-input/ffdi/AUST-05i_BOM_ERA5_historical_hres_BARRAR2_v1_day_FFDI.zarr
+
 
 
 This project is structured as following:
